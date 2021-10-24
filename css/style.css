@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.1.2019, 16:27:34
+    Author     : Xlisto
+*/
+.scrollable_table {
+    overflow-x: auto; /* tabulka se stane responzivní */
+  }
+
+table {
+        border: 1px;
+        margin:5px auto;
+        /*border-collapse: separate;*/
+        border-spacing: 5px;
+        background-color: darkgray;
+        box-shadow: black 4px 6px 20px;
+        min-width: 600px;
+        overflow-x: auto; 
+        /*display: block ;*/
+        /*table-layout: initial;*/
+	/*width:1024px;*/
+}
+
+table, th, td {
+	/*padding:5px;*/
+	font-family:Calibri;
+        vertical-align: top;
+        border: 1px solid black;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+       
+}
+
+td {
+   background-color: whitesmoke;
+   padding:5px;
+}
+
+th {
+   background-color: burlywood ;
+      padding:5px;
+}
+
+input[type=number] {
+    width: 50px;
+}
+
+input {
+    margin: 2.5px;
+}
+
+button {
+    margin: 2.5px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+#widget {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 350px;
+    height: 500px;
+    }
+
+canvas {
+    padding-left: 1px;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid black;
+    box-shadow: black 4px 6px 20px;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+    visibility: hidden; 
+    height: 0px;   
+}
+
+h1 {
+    text-align: center;
+}
+
+#date {
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: black 4px 6px 20px;
+    /*margin-left: -1px;*/
+    align-self: center;
+    min-width: 598px;
+    /*display: table;*/
+}
+
+#input {
+    
+    align-content: center;
+    margin: auto;
+    display: table;
+    border-spacing: 3px;
+    border: black 1px solid;
+    box-shadow: black 4px 6px 20px;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        margin-bottom: 20px;     
+}
+
+#input1 {
+    float: left;
+    margin: 5px;
+}
+
+#input2 {
+    float: left;
+    margin: 5px;
+}
+
+#kontakt {
+    
+
+    
+    float:right;
+}
+
+#progressBar {  
+  width: 100%;
+  background-color: grey;
+  
+}
+
+#bar {
+  width: 10%;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  line-height: 30px;
+  color: white
+}
+
+
+
+.divTable {
+    margin:5px auto;
+    display: table;
+    min-width: 600px;
+    /*width: 650px;*/
+    
+}
+

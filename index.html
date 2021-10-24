@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Týdenní statistika</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="#">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="progressBar">
+            <div id="bar"></div>
+        </div>
+        <h1 id="title"></h1>
+        <canvas id="canvas" width="640" height="200"></canvas><br>
+        
+        <div id="input">
+            <div id="input1"><img id="logo" height="50px" width="50px" src="./img/hive.png"></div>
+            
+            <div id="input2">
+                <label for="node"> Blockchain:</label>
+                <select id="node" name="node">
+                <option value="https://anyx.io" selected>Hive (anix.io)</option>
+                <option value="https://api.hive.blog" selected>Hive (api.hive.blog)</option>
+                <option value="https://api.steemit.com">Steemit</option> 
+            </select>
+            <label for="cesky"> Tag:</label>
+            <input type="text" value="cesky" id="tag"> <br>
+            <label for="week"> Týdny:</label>
+            <input type="number" value="8" id="week">
+            <button id="load">Spočítej</button>
+            <label for="addWeek"> Týdny:</label>
+            <input type="number" value="4" id="addWeek">
+            <button id="addLoad">Přidej</button></div>
+
+            <div id="kontakt"><img id="diskord" height="60px" width="60px" src="./img/discord.jpg" alt="Spojte se s česky píšícími autory" title="Spojte se s česky píšícími autory"></div>  
+        </div>
+        
+        <iframe id='widget' src="https://discordapp.com/widget?id=345286403648913411&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>  
+        
+        
+        
+        <script src="js/steem.min.js"></script>
+        <script src="js/Aplikace.js"></script> 
+        <script src="js/Author.js"></script>
+        <script src="js/Post.js"></script>
+        <script src="js/Graph.js"></script>
+        <script src="js/DetectDayLight.js"></script>
+        <script>new Aplikace();</script> 
+    </body>
+</html>
